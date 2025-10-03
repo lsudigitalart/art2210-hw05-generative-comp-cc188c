@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  const holdInterval = 30; // increase to slow down (frames)
+  const holdInterval = 30; 
 
   if (mouseIsPressed && frameCount % holdInterval === 0) {
    
